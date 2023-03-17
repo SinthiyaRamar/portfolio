@@ -1,0 +1,349 @@
+.projectPage{
+    width: 100%;
+    height: 200%;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+}
+/* .projectNav{ */
+    /* color: red; */
+/* } */
+.projectDetails{
+    width: 100%;
+    height: 100%;
+    /* overflow-y: scroll; */
+}
+.projects{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.projecttext{
+    width: 100%;
+    height: 10%;
+    color: black;
+    font-size: 4vh;
+    /* font-family: 'Bungee Inline', cursive; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.project1{
+    width: 100%;
+    height: 40%;
+    display: grid;
+    grid-template-columns: 12.5% 25% 25% 25% 12.5%;
+    grid-template-rows: 100%;
+
+}
+.project2{
+width: 100%;
+height: 40%;
+display: grid;
+grid-template-columns: 25% 25% 25% 25%;
+grid-template-rows: 100%;
+/* display: flex;
+align-items: center;
+justify-content: space-between;
+flex-direction: row; */
+/* gap: 50%; */
+
+
+}
+.stylesdiv{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.kanbandiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 75%;
+    background-color: white;
+    /* box-shadow:  rgba(0, 0, 0, 0.24) 0px 3px 8px;; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    cursor: pointer;
+    border-radius: 1vh;
+    position: relative;
+    z-index: 0;
+}
+.invoicediv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 75%;
+    background-color: white;
+    /* box-shadow:  rgba(0, 0, 0, 0.24) 0px 3px 8px;; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    cursor: pointer;
+    border-radius: 1vh;
+    position: relative;
+    z-index: 0;
+
+}
+.kanbandescriptiondiv{
+   position: absolute;
+   width: 90%;
+   height: 90%;
+   padding: 5%;
+   background-color: rgba(1, 1, 1, 0.8);
+   z-index: 1;
+   color: white;
+   display: none;
+   border-radius: 1vh;
+
+}
+.invoicedescriptiondiv{
+    position: absolute;
+    width: 90%;
+    height: 92%;
+    padding: 5%;
+    background-color: rgba(1, 1, 1, 0.8);
+    z-index: 1;
+    color: white;
+    display: none;
+    border-radius: 1vh;
+
+ }
+ .notesappdescriptiondiv{
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    padding: 5%;
+    background-color: rgba(1, 1, 1, 0.8);
+    z-index: 1;
+    color: white;
+    display: none;
+    border-radius: 1vh;
+
+ }
+ .dictionarydescriptiondiv{
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    padding: 5%;
+    background-color: rgba(1, 1, 1, 0.8);
+    z-index: 1;
+    color: white;
+    display: none;
+    border-radius: 1vh;
+
+ }
+ .quizdescriptiondiv{
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    padding: 5%;
+    background-color: rgba(1, 1, 1, 0.8);
+    z-index: 1;
+    color: white;
+    display: none;
+    border-radius: 1vh;
+
+ }
+.notesappdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    height: 75%;
+    background-color: white;
+    /* box-shadow:  rgba(0, 0, 0, 0.24) 0px 3px 8px;; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    cursor: pointer;
+    border-radius: 1vh;
+    position: relative;
+    z-index: 0;
+}
+.dictionarydiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 75%;
+    background-color: white;
+    /* box-shadow:  rgba(0, 0, 0, 0.24) 0px 3px 8px;;
+     */
+     box-shadow:rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    cursor: pointer;
+    border-radius: 1vh;
+    position: relative;
+    z-index: 0;
+
+}
+.quizdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 75%;
+    background-color: white;
+    /* box-shadow:  rgba(0, 0, 0, 0.24) 0px 3px 8px;;
+     */
+     box-shadow:rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    cursor: pointer;
+    border-radius: 1vh;
+    position: relative;
+    z-index: 0;
+}
+.kanbanimage{
+    width: 80%;
+    height: 80%;
+    cursor: pointer;
+    position: absolute;
+}
+.invoiceimage{
+    width: 90%;
+    height: 90%;
+    cursor: pointer;
+
+}
+.notesappimage{
+    width: 80%;
+    height: 80%;
+    cursor: pointer;
+
+}
+.dictionaryimage{
+    width: 80%;
+    height: 80%;
+}
+.quizimage{
+    width: 80%;
+    height: 80%;
+    cursor: pointer;
+
+}
+.myworkdetails{
+    width: 100%;
+    height: 200%;
+    cursor: pointer;
+
+}
+*{
+    user-select: none;
+}
+.kanbanviewdiv{
+    width: 38%;
+    height: 20%;
+    border: 1px solid white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vh;
+    color: #f7d54b;
+}
+.kanbanviewdiv:hover{
+    background-color: white;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    
+}
+.viewdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.apptitle{
+    font-size: 2.6vh;
+    letter-spacing: 3%;
+    color: #f7d54b;
+}
+.appdescription{
+    font-size: 1.8vh;
+}
+.invoiceviewdiv{
+    width: 38%;
+    height: 20%;
+    border: 1px solid white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vh;
+    color: #f7d54b;
+}
+.invoiceviewdiv:hover{
+    background-color: white;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.notesappviewdiv{
+    width: 38%;
+    height: 20%;
+    border: 1px solid white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vh;
+    color: #f7d54b;
+}
+.notesappviewdiv:hover{
+    background-color: white;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;   
+}
+.dictionaryviewdiv{
+    width: 38%;
+    height: 20%;
+    border: 1px solid white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vh;
+    color: #f7d54b;
+}
+.dictionaryviewdiv:hover{
+    background-color: white;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.quizviewdiv{
+    width: 38%;
+    height: 20%;
+    border: 1px solid white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vh;
+    color: white;
+    color: #f7d54b;
+}
+.quizviewdiv:hover{
+    background-color: white;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.kanbanvideodiv{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+.kanbanvideo{
+    width: 90%;
+    height: 100%;
+    margin-top: -2vh;
+}
+
+.quizatag:hover{
+    color: black;
+}

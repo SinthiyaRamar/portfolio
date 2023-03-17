@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@700&family=Heebo:wght@800&family=Jost:wght@400;600&family=Roboto:wght@700&display=swap');
+.navbarDiv{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 5% 45% 10% 10% 10% 10% 10% ;
+    grid-template-rows: 100%;
+    background-color: rgba(20, 20, 20,0.9);
+    font-family: 'Heebo', sans-serif;
+
+}
+.navDiv{
+    width: 100%;
+    height: 100%;
+    font-size: 1.6vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    cursor: pointer;
+}
+.navDiv:hover{
+    color: #4893c2;
+}
+.logodiv{
+    width: 90%;
+    height: 90%;
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.itsmeimg{
+    width: 70%;
+    height: 60%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.itsmeimg:hover{
+    width: 80%;
+    height: 70%;
+}

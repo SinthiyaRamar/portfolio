@@ -1,0 +1,190 @@
+.skillspage{
+    width: 100%;
+    height: 100%;
+
+}
+.skilldiv{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 14% 37% 37% 12%;
+    background-color: #80808014;
+    /* background-color: #e7f55e; */
+    /* background-color: #d3eaf4; */
+
+}
+.skilltextdiv{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    font-size: 2vh;
+}
+.skillsdetailsdiv{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns:22% 14% 14% 14% 14% 22%;
+    grid-template-rows: 100%;
+    
+}
+.skilldetailsdiv{
+    width: 100%;
+    height: 100%;
+   display: grid;
+   grid-template-columns: 25% 25% 25% 25%;
+   grid-template-rows: 100%;
+    
+}
+.skillcontent{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.htmldiv{
+    width: 75%;
+    height: 55%;
+    /* border-radius: 50%; */
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.jsdiv{
+    width: 75%;
+    height: 55%;
+    /* border-radius: 50%; */
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.nodejsdiv{
+    width: 75%;
+    height: 55%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    /* border-radius: 50%; */
+
+}
+.reactdiv{
+    width: 75%;
+    height: 55%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    /* border-radius: 50%; */
+
+}
+.javadiv{
+    width: 75%;
+    height: 55%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    /* border-radius: 50%; */
+
+}
+.scratchdiv{
+    width: 75%;
+    height: 55%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    /* border-radius: 50%; */
+
+}
+.mysqldiv{
+    width: 75%;
+    height: 55%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    /* border-radius: 50%; */
+
+}
+.jquerydiv{
+    width: 75%;
+    height: 55%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    /* border-radius: 50%; */
+
+}
+.htmlimages{
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+
+}
+.jsimages{
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+
+}
+.nodejsimages{
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+
+}
+.reactimages{
+    width: 85%;
+    height: 80%;
+    border-radius: 50%;
+
+}
+.javaimages{
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+
+}
+.scratchimages{
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+
+}
+.mysqlimages{
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+
+}
+.jqueryimages{
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+
+}

@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@700&family=Heebo:wght@800&family=Jost:wght@400;600&family=Roboto:ital,wght@0,700;1,900&display=swap');
+.wholehomepage{
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+}
+.homepage{
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+    /* background-image: url('../Home/sea.jpg'); */
+    /* background-size: 100% 100%; */
+    /* background-image: radial-gradient( circle farthest-corner at 92.3% 71.5%,  rgba(83,138,214,1) 0%, rgba(134,231,214,1) 90% );; */
+    /* opacity: 0.9; */
+    /* background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(0,149,218,0.85) 9.9%, rgba(56,80,114,1) 100.3% ); */
+    /* background: rgb(75,117,227); */
+    /* background: linear-gradient(142deg, rgba(75,117,227,1) 0%, rgba(90,199,224,1) 96%); */
+    position: relative;
+    font-family: 'Golos Text', sans-serif;
+    background-image: url('/home/sinthi-zstk288/Documents/MyPortfolio/portfolio/public/images/pattern-background-desktop.svg');
+    background-size: 100% 45%;
+    background-repeat: no-repeat;
+    background-color: #e0e8ff;
+
+}
+.homefullpagebackground{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, );
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 100%;
+}
+.navbarpage{
+    width: 100%;
+    height: 100%;
+}
+.mypage{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+}
+.myimage{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-image: url('../Home/sinthi.png'); */
+
+}
+.mynamediv{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* color: white; */
+    color: black;
+    font-size: 3vh;
+
+}
+.myimagediv{
+    width: 35%;
+    height: 35%;
+    /* background-image: url('/home/sinthi-zstk288/Documents/MyPortfolio/portfolio/public/images/sinthiya.JPG'); */
+    /* background-size: 155% 104%; */
+    /* background-position: center; */
+    border-radius: 50%;
+    /* background-repeat: no-repeat; */
+    background-color: black;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.myimgtag{
+    width: 148%;
+    height: 101%;
+    border-radius: 50%;
+}
+.hellotext{
+    color: #d71434;
+    font-size: 5vh;
+}
+
+.text{
+    color: #7859f7;
+}
+
+/* .myname {
+	text-transform: uppercase;
+	letter-spacing: .5em;
+	display: inline-block;
+	border: 4px double rgba(255,255,255,.25);
+	border-width: 4px 0;
+	padding: 1.5em 0em;
+	position: absolute;
+	top: 18%;
+	left: 50%;
+	width: 40em;
+	margin: 0 0 0 -20em;
+}
+  span {
+
+  	font: 700 4em/1 "Oswald", sans-serif;
+  	letter-spacing: 0;
+  	padding: .25em 0 .325em;
+	  display: block;
+	  margin: 0 auto;
+  	text-shadow: 0 0 80px rgba(255,255,255,.5);
+
+/* Clip Background Image */
+
+	  /* background: url(https://i.ibb.co/RDTnNrT/animated-text-fill.png) repeat-y;
+	  -webkit-background-clip: text;
+	  background-clip: text; */
+
+/* Animate Background Image */
+
+	  /* -webkit-text-fill-color: transparent;
+	  -webkit-animation: aitf 80s linear infinite; */
+
+/* Activate hardware acceleration for smoother animations */
+
+	  /* -webkit-transform: translate3d(0,0,0);
+	  -webkit-backface-visibility: hidden; */
+
+  
+/* } */
+
+/* Animate Background Image */
+
+/* @-webkit-keyframes aitf {
+	0% { background-position: 0% 50%; }
+	100% { background-position: 100% 50%; }
+} */ 

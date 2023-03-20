@@ -1,0 +1,82 @@
+.contactpage{
+    width: 100%;
+    height: 100%;   
+}
+.contactwholediv
+{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 10% 90%;
+
+}
+.contactdivs{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titlediv{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1vw;
+    /* color: #04aa6d; */
+    color: #0771ae;
+
+}
+.inputdiv{
+    width: 25%;
+    height: 60%;
+    padding: 2vh;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    text-align: left;
+    gap: 6%;
+    font-size: 1.7vh;
+}
+.username
+{
+ height: 6%;
+ font-size: 1.7vh;
+ text-indent: 3%;
+ outline: none;
+ border:0.5px solid #008000;
+
+}
+.userid
+{
+   height: 6%;
+   font-size: 1.7vh;
+   text-indent: 3%;
+   outline: none;
+   border:0.5px solid #008000;
+}
+.description{
+   height: 30%;
+   font-size: 1.68vh;
+   text-indent: 3%;
+   outline: none;
+   border:0.5px solid #008000;
+}
+.form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.submit{
+    height: 10%;
+    cursor: pointer;
+    font-size: 2vh;
+    border: none;
+    background-color: #008000;
+    color: white;
+}

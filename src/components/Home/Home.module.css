@@ -82,6 +82,10 @@
     width: 148%;
     height: 101%;
     border-radius: 50%;
+    /* margin-left: 60%;
+    transition: all 4s ease 0s;
+    transform: translateX(-40%); */
+    
 }
 .hellotext{
     color: #d71434;
@@ -91,6 +95,11 @@
 .text{
     color: #7859f7;
 }
+.myimagediv:hover{
+    width: 37%;
+    height: 37%;
+}
+
 
 /* .myname {
 	text-transform: uppercase;

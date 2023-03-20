@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@700&family=Heebo:wght@800&family=Jost:wght@400;600&family=Roboto:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Anek+Telugu&family=El+Messiri:wght@600&family=Josefin+Sans:ital,wght@1,300&family=League+Spartan&family=Mukta&family=Nerko+One&family=Open+Sans:ital@1&family=Roboto+Condensed:wght@300;400&family=Roboto+Mono&family=Roboto:ital@1&family=Rubik&family=Solway:wght@500&display=swap");
 .aboutpage{
     width: 100%;
     height: 100%;
@@ -18,7 +19,8 @@
     align-items: center;
     justify-content: center;
     font-size: 2vh;
-    font-family: 'Heebo', sans-serif;
+    /* font-family: 'Heebo', sans-serif; */
+    font-family: "League Spartan", sans-serif;
     color: red;
     /* letter-spacing: 10%; */
 }
@@ -26,7 +28,7 @@
     width: 100%;
     height: 100%;
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 45% 55%;
     grid-template-rows: 100%;
 }
 .aboutimagediv{
@@ -38,8 +40,8 @@
 
 }
 .aboutimgdiv{
-    width: 80%;
-    height: 80%;
+    width: 70%;
+    height: 90%;
     display: flex;
     align-items: center;
     justify-content: right;
@@ -62,14 +64,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: "League Spartan", sans-serif;
 }
 .aboutdetails{
-   width: 50%;
+   width: 75%;
    height: 50%;
    display: flex; 
    align-items: center; 
    justify-content: center;
-   font-size: 2.3vh;
+   font-size: 2.6vh;
    text-align: left;
    /* flex-direction: column; */
    line-height: 5vh;
@@ -122,3 +125,5 @@
 .mailidtext{
     color: green;
 }
+
+

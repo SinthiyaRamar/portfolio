@@ -11,7 +11,7 @@ export default function About() {
           <div className={about.aboutimagediv} >
             <div className={about.aboutimgdiv} >
               <figure className={about.swing}>
-              <img className={about.aboutmeimg} src="images/sinthiya.JPG" alt="" />
+              <img className={about.aboutmeimg} src="images/developer.jpg" alt="" />
  
               </figure>
             </div>

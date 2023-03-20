@@ -54,7 +54,7 @@ export default function Assignment() {
           <div className={assign.projectlistdiv} >
           <div className={assign.projectlistitemdiv} >
 
-            <div onClick={()=>handleOnclick("js")} style={{background : js ? 'green' : 'rgb(109 106 106)'}} className={assign.jsdiv} >VENILLA JS</div>
+            <div onClick={()=>handleOnclick("js")} style={{background : js ? 'green' : 'rgb(109 106 106)'}} className={assign.jsdiv} >VANILLA JS</div>
             <div onClick={()=>handleOnclick("html")} style={{background : html ? 'green' : 'rgb(109 106 106)'}} className={assign.htmldiv} >HTML/CSS</div>
             <div onClick={()=>handleOnclick("node")} style={{background : node ? 'green' : 'rgb(109 106 106)'}} className={assign.nodediv} >NODE JS</div>
             <div onClick={()=>handleOnclick("react")} style={{background : react ? 'green' : 'rgb(109 106 106)'}} className={assign.reactdiv} >REACT</div>

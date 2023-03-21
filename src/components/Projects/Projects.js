@@ -80,7 +80,7 @@ export default function Projects() {
  }
 
   return (
-    <div className={project.projectPage} >
+    <div id="Project" className={project.projectPage} >
 
        
         <div className={project.projectDetails} >
@@ -92,15 +92,16 @@ export default function Projects() {
                         <div className={project.kanbandiv} onMouseLeave={()=>handleMouseLeave("kanban")} onMouseEnter={()=>handleMouseEnter("kanban")} >
                           <img className={project.kanbanimage} src="./images/kanban.png" alt=""/>
                           <div style={{display : kanban ? 'block' : 'none'}}  className={project.kanbandescriptiondiv} >
+                            <div className={project.descriptionstyle} >
                              <h1 className={project.apptitle} > Kanban App</h1>
                              <div className={project.appdescription} >
-                             <p>A kanban board is an agile project management tool, limit work-in-progress.</p>
+                             {/* <p>A kanban board is an agile project management tool, limit work-in-progress.</p> */}
                              <p>I used the Node.js framework in this project</p>
                              </div>
                              <div  className={project.viewdiv}>
                              <div className={project.kanbanviewdiv} onClick={()=>handleviewMouseEnter("kanban")}  > view</div>
                              </div>
-  
+                                
                           </div>
                           <div  onMouseLeave={()=>handleviewMouseLeave("kanban")} style={{display : kanbanview ? 'block' : 'none'}}  className={project.kanbanvideodiv} >
                           <video  className={project.kanbanvideo} controls>
@@ -108,14 +109,16 @@ export default function Projects() {
                            </video>
                           </div>
                           </div>
+                          </div>
                        </div>
                        <div className={project.stylesdiv} >
                         <div onMouseLeave={()=>handleMouseLeave("invoice")} onMouseEnter={()=>handleMouseEnter("invoice")} className={project.invoicediv} >
                         <img className={project.invoiceimage} alt="" src="./images/invoice logo.jpg" />
                         <div style={{display : invoice ? 'block' : 'none'}} className={project.invoicedescriptiondiv} >
+                        <div className={project.descriptionstyle} >
                              <h1 className={project.apptitle} > Invoice App</h1>
                              <div className={project.appdescription} >
-                             <p>A sales invoice serves to inform the buyer or customer of the goods or services they purchased and the total amount they owe</p>
+                             {/* <p>A sales invoice serves to inform the buyer or customer of the goods or services they purchased and the total amount they owe</p> */}
                              <p>I used the Node.js framework in this project</p>
                           </div>
                           <div className={project.viewdiv}>
@@ -128,17 +131,19 @@ export default function Projects() {
                            </video>
                           </div>
                         </div>
+                        </div>
                        </div>
                        <div className={project.stylesdiv} >
                         <div onMouseLeave={()=>handleMouseLeave("notesapp")} onMouseEnter={()=>handleMouseEnter("notesapp")}  className={project.notesappdiv} >
                         <img className={project.notesappimage} alt="" src="./images/notesapp.png"/>
                         <div style={{display : notesapp ? 'block' : 'none'}} className={project.notesappdescriptiondiv} >
+                        <div className={project.descriptionstyle} >
                              <h1 className={project.apptitle} > Notes App</h1>
                              <div className={project.appdescription} >
-                             <p>Use the Notes app to quickly capture your thoughts.</p>
+                             {/* <p>Use the Notes app to quickly capture your thoughts.</p> */}
                              <p>I used the Node.js framework in this project</p>
                           </div>
-                          <div className={project.viewdiv}>
+                          {/* <div className={project.viewdiv}>
                              <div onClick={()=>handleviewMouseEnter("notesapp")} className={project.notesappviewdiv}>view</div>
                              </div>
                           </div>
@@ -146,9 +151,13 @@ export default function Projects() {
                           {/* <video  className={project.kanbanvideo} controls>
                               <source src="./images/notesapp.webm" type="video/mp4" />
                            </video> */}
+                          {/* </div> */} 
+                          <div className={project.viewdiv}>
+                          <div className={project.notesappviewdiv}><a className={project.quizatag} href="https://github.com/SinthiyaRamar/MyNotesApp" rel="noreferrer" target="_blank" > view</a></div>
+                             </div>
                           </div>
                         </div>
-                      
+                      </div>
                        </div>
 
                 </div>
@@ -158,9 +167,10 @@ export default function Projects() {
                         <div onMouseLeave={()=>handleMouseLeave("dictionary")} onMouseEnter={()=>handleMouseEnter("dictionary")} className={project.dictionarydiv} >
                         <img className={project.dictionaryimage} alt="" src="./images/dictionary.png"/>
                         <div style={{display : dictionary ? 'block' : 'none'}} className={project.dictionarydescriptiondiv} >
+                        <div className={project.descriptionstyle} >
                              <h1 className={project.apptitle} > Dictionary</h1>
                              <div className={project.appdescription} >
-                             <p>flexible endpoints including headwords, parts of speech, definitions, translations, audio, and more… </p>
+                             {/* <p>flexible endpoints including headwords, parts of speech, definitions, translations, audio, and more… </p> */}
                              <p>I used the Node.js framework in this project</p>
                           </div>
                           <div className={project.viewdiv}>
@@ -171,6 +181,7 @@ export default function Projects() {
                           <video  className={project.kanbanvideo} controls>
                               <source src="./images/dictionary.webm" type="video/mp4" />
                            </video>
+                           </div>
                           </div>
                         </div>
                        </div>
@@ -178,16 +189,17 @@ export default function Projects() {
                         <div onMouseLeave={()=>handleMouseLeave("quiz")} onMouseEnter={()=>handleMouseEnter("quiz")} className={project.quizdiv} >
                         <img className={project.quizimage} alt="" src="./images/quiz.png"/>
                         <div style={{display : quiz ? 'block' : 'none'}} className={project.quizdescriptiondiv} >
+                            <div className={project.descriptionstyle} >
                              <h1 className={project.apptitle} > Quiz Game</h1>
                              <div className={project.appdescription} >
-                             <p>Quiz, a contest in which participants test what they know by answering questions on one or more topics.</p>
+                             {/* <p>Quiz, a contest in which participants test what they know by answering questions on one or more topics.</p> */}
                              <p>I used the js in this project</p>
                           </div>
                           <div className={project.viewdiv}>
                           <div className={project.quizviewdiv}><a className={project.quizatag} href="https://final-project.sinthiya28.repl.co/" rel="noreferrer" target="_blank" > view</a></div>
                              </div>
                           </div>
-
+                      </div>
                         </div>
                        </div>
                 </div>

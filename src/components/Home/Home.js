@@ -5,14 +5,21 @@ import Projects from '../Projects/Projects';
 import Skills from '../Skills/Skills';
 // import Navbar from '../Navbar/Navbar';
 import home from './Home.module.css';
+
+
+
 export default function Home() {
   return (
-    <div className={home.wholehomepage} >
+    <div id="Home" className={home.wholehomepage} >
     <div className={home.homepage} >
         <div className={home.homefullpagebackground}>
            {/* <div className={home.navbarpage} >
             {/* <Navbar/> */}
            {/* </div> */} 
+
+
+
+
            <div className={home.mypage} >
 
             <div className={home.mynamediv} >

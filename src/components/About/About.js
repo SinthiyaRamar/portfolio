@@ -2,7 +2,7 @@ import React from 'react'
 import about from './About.module.css'
 export default function About() {
   return (
-    <div className={about.aboutpage} >
+    <div id="About" className={about.aboutpage} >
       <div className={about.aboutdiv}>
         <div className={about.aboutmetitlediv} >
           <h1>About Me</h1>
@@ -20,10 +20,10 @@ export default function About() {
               <div className={about.aboutdetails}>
                 <ul>
                   <li>I am Sinthiya Ramar.</li>
-                  <li> I have completed my 12th standard education.</li>
-                  <li>My native is keelapvoor.</li>
+                  <li> I have completed my 12th standard .</li>
+                  <li>My native is Keelapvoor.</li>
                   <li>I was born on November 28th, 2005.</li>
-                  <li>I first began learning about programming when I entered Zoho.</li>
+                  <li>I love coding because it challenges me to think creatively and solve problems.</li>
                   </ul> 
               </div>
             </div>

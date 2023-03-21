@@ -3,7 +3,7 @@ import skills from './Skills.module.css'
 
 export default function Skills() {
   return (
-    <div className={skills.skillspage} >
+    <div id="Skills" className={skills.skillspage} >
       <div className={skills.skilldiv} >
         <div className={skills.skilltextdiv} ><h1>Skills</h1></div>
       
@@ -16,7 +16,7 @@ export default function Skills() {
          </div>
          <div className={skills.skillcontent} >
          <div  className={skills.jsdiv} >
-             <img className={skills.jsimages} src='./images/js.jpg' alt="jsimages"/>
+             <img className={skills.jsimages} src='./images/javascript.svg' alt="jsimages"/>
 
          </div>
           

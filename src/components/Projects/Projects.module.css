@@ -6,13 +6,9 @@
     grid-template-columns: 100%;
     grid-template-rows: 50% 50%;
 }
-/* .projectNav{ */
-    /* color: red; */
-/* } */
 .projectDetails{
     width: 100%;
     height: 100%;
-    /* overflow-y: scroll; */
 }
 .projects{
     width: 100%;
@@ -25,7 +21,7 @@
 .projecttext{
     width: 100%;
     height: 10%;
-    color: black;
+    color: #1e3c81;
     font-size: 4vh;
     /* font-family: 'Bungee Inline', cursive; */
     display: flex;
@@ -46,13 +42,6 @@ height: 40%;
 display: grid;
 grid-template-columns: 25% 25% 25% 25%;
 grid-template-rows: 100%;
-/* display: flex;
-align-items: center;
-justify-content: space-between;
-flex-direction: row; */
-/* gap: 50%; */
-
-
 }
 .stylesdiv{
     width: 100%;
@@ -68,7 +57,6 @@ flex-direction: row; */
     width: 80%;
     height: 75%;
     background-color: white;
-    /* box-shadow:  rgba(0, 0, 0, 0.24) 0px 3px 8px;; */
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
     cursor: pointer;
     border-radius: 1vh;
@@ -94,7 +82,6 @@ flex-direction: row; */
    position: absolute;
    width: 100%;
    height: 100%;
-   /* padding: 5%; */
    background-color: rgba(1, 1, 1, 0.8);
    z-index: 1;
    color: white;
@@ -106,7 +93,6 @@ flex-direction: row; */
     position: absolute;
     width: 100%;
     height: 100%;
-    /* padding: 5%; */
     background-color: rgba(1, 1, 1, 0.8);
     z-index: 1;
     color: white;

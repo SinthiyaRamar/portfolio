@@ -3,7 +3,8 @@
 .aboutpage{
     width: 100%;
     height: 100%;
-    background-color: #efedecf0;
+    background-color: white;
+    color: #666161;
 }
 .aboutdiv{
     width: 100%;
@@ -19,10 +20,8 @@
     align-items: center;
     justify-content: center;
     font-size: 2vh;
-    /* font-family: 'Heebo', sans-serif; */
     font-family: "League Spartan", sans-serif;
-    color: red;
-    /* letter-spacing: 10%; */
+    color: #19A7CE;
 }
 .aboutdetailsdiv{
     width: 100%;
@@ -45,9 +44,6 @@
     display: flex;
     align-items: center;
     justify-content: right;
-    /* flex-direction: column; */
-    /* gap: 7%; */
-
 }
 .aboutmeimg{
     width: 100%;
@@ -117,6 +113,7 @@
     align-items: center;
     justify-content: left;
     flex-direction: column;
+    font-size: 1.8vh;
  }
 @keyframes swing {
     0% { transform: rotate(3deg); }

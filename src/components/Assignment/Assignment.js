@@ -6,6 +6,8 @@ export default function Assignment() {
   const [node, isNode] = useState(false);
   const [react, isReact] = useState(false);
   const [api, isApi] = useState(false);
+  const [scratch, isScratch] = useState(false);
+
 
   function handleOnclick(project) {
     if (project === "js") {
@@ -14,6 +16,8 @@ export default function Assignment() {
       isNode(false);
       isReact(false);
       isApi(false);
+      isScratch(false);
+
     }
     if (project === "html") {
       isJs(false);
@@ -21,6 +25,8 @@ export default function Assignment() {
       isNode(false);
       isReact(false);
       isApi(false);
+      isScratch(false);
+
     }
     if (project === "node") {
       isJs(false);
@@ -28,6 +34,8 @@ export default function Assignment() {
       isNode(true);
       isReact(false);
       isApi(false);
+      isScratch(false);
+
     }
     if (project === "react") {
       isJs(false);
@@ -35,6 +43,8 @@ export default function Assignment() {
       isNode(false);
       isReact(true);
       isApi(false);
+      isScratch(false);
+
     }
     if (project === "api") {
       isJs(false);
@@ -42,6 +52,16 @@ export default function Assignment() {
       isNode(false);
       isReact(false);
       isApi(true);
+      isScratch(false);
+    }
+    if (project === "scratch") {
+      isJs(false);
+      isHtml(false);
+      isNode(false);
+      isReact(false);
+      isApi(false);
+      isScratch(true);
+
     }
   }
   return (
@@ -101,6 +121,16 @@ export default function Assignment() {
               className={assign.apidiv}
             >
               API
+            </div>
+            <div
+              onClick={() => handleOnclick("scratch")}
+              style={{
+                background: scratch ? "#1e3c81" : "rgb(200 200 200)",
+                color: scratch ? "white" : "black",
+              }}
+              className={assign.scratchdiv}
+            >
+              SCRATCH
             </div>
             {/* <div></div> */}
           </div>
@@ -660,6 +690,131 @@ export default function Assignment() {
             </div>
           </div>
           {/* {} */}
+            
+                 {/* scratch */}
+                 <div
+            style={{ display: scratch ? "block" : "none" }}
+            className={assign.projectshtmldiv}
+          >
+            <div className={assign.jswholedivs}>
+              <div className={assign.firsthalf}>
+                {/* Kanban */}
+                <div className={assign.projectwholediv}>
+                  <a
+                    rel="noreferrer"
+                    className={assign.projectdiv}
+                    href="https://scratch.mit.edu/projects/724825969/fullscreen/"
+                    target="_blank"
+                  >
+                    <div className={assign.projectcontent}>
+                      <div className={assign.projecttitle}>
+                        <h2>PUZZLE MATH</h2>
+                      </div>
+                      <img
+                        className={assign.projectimg}
+                        src="./images/puzzlemath.png"
+                        alt="projectscratch"
+                      />
+                    </div>
+                  </a>
+                </div>
+                {/* musicplayer */}
+                <div className={assign.projectwholediv}>
+                  <a
+                    rel="noreferrer"
+                    className={assign.projectdiv}
+                    href="https://scratch.mit.edu/projects/720321137/fullscreen/"
+                    target="_blank"
+                  >
+                    <div className={assign.projectcontent}>
+                      <div className={assign.projecttitle}>
+                        <h2>MUSIC PLAYER</h2>
+                      </div>
+                      <img
+                        className={assign.projectimg}
+                        src="./images/scratchmusic.png"
+                        alt="projectscratch"
+                      />
+                    </div>
+                  </a>
+                </div>
+
+                {/* Dictionary */}
+                <div className={assign.projectwholediv}>
+                  <a
+                    rel="noreferrer"
+                    className={assign.projectdiv}
+                    href="https://scratch.mit.edu/projects/717929834/fullscreen/"
+                    target="_blank"
+                  >
+                    <div className={assign.projectcontent}>
+                      <div className={assign.projecttitle}>
+                        <h2>DAY FINDER</h2>
+                      </div>
+                      <img
+                        className={assign.projectimg}
+                        src="./images/dayfinder.png"
+                        alt="projectscratch"
+                      />
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div className={assign.secondhalf}>
+                {/* dicegame */}
+                <div className={assign.projectwholediv}>
+                  <a
+                    rel="noreferrer"
+                    className={assign.projectdiv}
+                    href="https://scratch.mit.edu/projects/719342396/fullscreen/"
+                    target="_blank"
+                  >
+                    <div className={assign.projectcontent}>
+                      <div className={assign.projecttitle}>
+                        <h2>DICE GAME</h2>
+                      </div>
+                      <img
+                        className={assign.projectimg}
+                        src="./images/dicegame.png"
+                        alt="projectscrach"
+                      />
+                    </div>
+                  </a>
+                </div>
+                {/* Notes aPP */}
+                <div className={assign.projectwholediv}>
+                  <a
+                    rel="noreferrer"
+                    className={assign.projectdiv}
+                    href="https://scratch.mit.edu/projects/718882138/fullscreen/"
+                    target="_blank"
+                  >
+                    <div className={assign.projectcontent}>
+                      <div className={assign.projecttitle}>
+                        <h2>TABLE</h2>
+                      </div>
+                      <img
+                        className={assign.projectimg}
+                        src="./images/table.png"
+                        alt="projectnode"
+                      />
+                    </div>
+                  </a>
+                </div>
+                {/* stiry  */}
+                <div className={assign.projectwholediv} >
+               <a className={assign.projectdiv} href="https://scratch.mit.edu/projects/719016926/fullscreen/" target="_blank" >
+              <div className={assign.projectcontent} >
+                 <div className={assign.projecttitle} ><h2>STORY</h2></div>
+                <img className={assign.projectimg} src='./images/story.png' art="projecthtml"/>
+              </div>
+              </a>
+              </div>
+              </div>
+            </div>
+          </div>
+          {/* {} */}
+
         </div>
       </div>
     </div>

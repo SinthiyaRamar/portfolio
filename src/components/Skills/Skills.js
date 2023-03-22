@@ -58,8 +58,10 @@ export default function Skills() {
           <div className={skills.skillcontent} >
           <div  className={skills.mysqldiv} >
           <img className={skills.mysqlimages} src='./images/mysql.png' alt="mysqlimages"/>
+
+         {/*  */}
           </div>
-          
+
           </div>
       </div>
       </div>

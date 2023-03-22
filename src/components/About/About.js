@@ -24,7 +24,7 @@ export default function About() {
               <ul>
                 <li>I am Sinthiya Ramar.</li>
                 <li> I have completed my 12th standard .</li>
-                <li>My native is Keelapvoor.</li>
+                <li>My native place is Keelapavoor, which is located in the Tenkasi district.</li>
                 <li>I was born on November 28th, 2005.</li>
                 <li>
                   I love coding because it challenges me to think creatively and

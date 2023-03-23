@@ -123,7 +123,7 @@ export default function Projects() {
                     className={project.kanbanvideodiv}
                   >
                     <video className={project.kanbanvideo} controls>
-                      <source src="./images/kanban.webm" type="video/mp4" />
+                      <source src="./images/kanbanvideo.webm" type="video/mp4" />
                     </video>
                   </div>
                 </div>

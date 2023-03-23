@@ -10,8 +10,8 @@ import home from './Home.module.css';
 
 export default function Home() {
   return (
-    <div id="Home" className={home.wholehomepage} >
-    <div className={home.homepage} >
+    <div  className={home.wholehomepage} >
+    <div id="Home" className={home.homepage} >
         <div className={home.homefullpagebackground}>
            {/* <div className={home.navbarpage} >
             {/* <Navbar/> */}

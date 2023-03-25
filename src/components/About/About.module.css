@@ -122,5 +122,17 @@
 .mailidtext{
     color: green;
 }
+@media only screen and (min-width:350px)and (max-width:700px) {
+.aboutdetailsdiv{
+    grid-template-rows: 35% 65%;
+    grid-template-columns: 100%;
+}
+.aboutdetails{
+    font-size: 2.2vh;
+}
+.swing{
+    animation:ease-in-out 1s infinite alternate;
+}
+}
 
 

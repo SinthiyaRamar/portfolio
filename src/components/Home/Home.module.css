@@ -1,21 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@700&family=Heebo:wght@800&family=Jost:wght@400;600&family=Roboto:ital,wght@0,700;1,900&display=swap');
-.wholehomepage{
+
+.wholehomepage {
     width: 100%;
     height: 100%;
     overflow-y: scroll;
 }
-.homepage{
+
+.homepage {
     width: 100%;
     height: 100%;
     margin: 0%;
     padding: 0%;
-    /* background-image: url('../Home/sea.jpg'); */
-    /* background-size: 100% 100%; */
-    /* background-image: radial-gradient( circle farthest-corner at 92.3% 71.5%,  rgba(83,138,214,1) 0%, rgba(134,231,214,1) 90% );; */
-    /* opacity: 0.9; */
-    /* background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(0,149,218,0.85) 9.9%, rgba(56,80,114,1) 100.3% ); */
-    /* background: rgb(75,117,227); */
-    /* background: linear-gradient(142deg, rgba(75,117,227,1) 0%, rgba(90,199,224,1) 96%); */
     position: relative;
     font-family: 'Golos Text', sans-serif;
     background-image: url('/home/sinthi-zstk288/Documents/MyPortfolio/portfolio/public/images/pattern-background-desktop.svg');
@@ -24,7 +19,8 @@
     background-color: #e0e8ff;
 
 }
-.homefullpagebackground{
+
+.homefullpagebackground {
     width: 100%;
     height: 100%;
     background-color: rgb(0, 0, 0, );
@@ -32,74 +28,99 @@
     grid-template-rows: 100%;
     grid-template-columns: 100%;
 }
-.navbarpage{
+
+.navbarpage {
     width: 100%;
     height: 100%;
 }
-.mypage{
+
+.mypage {
     width: 100%;
     height: 100%;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 100%;
 }
-.myimage{
+
+.myimage {
     width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-image: url('../Home/sinthi.png'); */
-
 }
-.mynamediv{
+
+.mynamediv {
     width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    /* color: white; */
     color: black;
     font-size: 3vh;
 
 }
-.myimagediv{
+
+.myimagediv {
     width: 35%;
     height: 35%;
-    /* background-image: url('/home/sinthi-zstk288/Documents/MyPortfolio/portfolio/public/images/sinthiya.JPG'); */
-    /* background-size: 155% 104%; */
-    /* background-position: center; */
     border-radius: 50%;
-    /* background-repeat: no-repeat; */
     background-color: black;
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.myimgtag{
+
+.myimgtag {
     width: 148%;
     height: 101%;
     border-radius: 50%;
-    /* margin-left: 60%;
-    transition: all 4s ease 0s;
-    transform: translateX(-40%); */
-    
 }
-.hellotext{
+
+.hellotext {
     color: #3e79ff;
     font-size: 5vh;
 }
 
-.text{
+.text {
     color: #37306B;
 }
-.myimagediv:hover{
+
+.myimagediv:hover {
     width: 37%;
     height: 37%;
 }
-#abouts{
+
+#abouts {
     height: 50vh;
     width: 100vw;
+}
+
+@media only screen and (min-width:350px)and (max-width:700px) {
+
+    .myimagediv {
+        width: 73%;
+        height: 23%;
+        border-radius: 50%;
+        background-color: black;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mynamediv {
+        width: 96%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: black;
+        font-size: 1.7vh;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
 }
